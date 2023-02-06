@@ -8,7 +8,8 @@ body{
     font-family: sans-serif;
 }
 
-.centered-container{
+.centered-container,
+.centered-container-second{
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -63,6 +64,19 @@ nav #nav-menu{
 /* desktop menu hidden */
 nav #nav-desktop-menu{
     display: none;
+}
+
+nav #nav-desktop-menu ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav #nav-desktop-menu .white-btn{
+    color: black;
+    padding: 5px 10px ;
 }
 
 /* main  */
@@ -171,7 +185,7 @@ main #second-section #sect2-top{
 }
 
 main #second-section #sect2-top img{
-    width: 75%;
+    width: 60%;
     
 }
 main #second-section #sect2-top h1,
@@ -209,7 +223,7 @@ main #second-section #sect2-bottom .arrow{
 }
 
 main #second-section #sect2-bottom img{
-    width: 75%;
+    width: 60%;
 }
 
 main #second-section #sect2-bottom span{
@@ -509,5 +523,47 @@ footer #footer-inner a {
 
     main #fifth-section #sect5-inner{
         flex-direction: row;
+    }
+}
+
+
+@media screen and (min-width:992px){
+
+    .centered-container{
+        max-width: 1000px;
+    }
+
+    nav #nav-menu{
+        display: none;
+    }
+
+    nav #nav-desktop-menu{
+        display: block;
+    }
+
+    main #first-section .sect1-square:first-child{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    main #first-section #sect1-square-right img{
+        padding-top: 110px;   
+    }
+
+    main #second-section #sect2-inner{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    main #sect3-inner #sect3-bottom .card{
+        gap: 50px;
+    }
+
+    main #fourth-section #sect4-inner .sect4-square{
+        width: calc(100% / 3 - 20px);
+    }
+
+    .centered-container-second{
+        max-width: 500px;
     }
 }
