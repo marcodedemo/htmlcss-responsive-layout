@@ -20,6 +20,16 @@ body{
     padding: 10px 40px;
 }
 
+.blue-btn{
+    color: white;
+    background-color: #0091ff;
+}
+
+.purple-btn{
+    color: white;
+    background-color: #9693e6;
+}
+
 /* navbar */
 
 nav{
@@ -92,10 +102,6 @@ main #first-section h2{
     padding-top: 20px;
 }
 
-main #first-section #sect1-square-left .blue-btn{
-    color: white;
-    background-color: #0091ff;
-}
 
 /* section1 square1 right side */
 main #first-section #sect1-square-right{
@@ -260,3 +266,50 @@ main #sect3-inner #sect3-bottom .card-text .name{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+
+/* SECTION4  */
+
+main #fourth-section {
+    background-color: #9693e6;
+}
+
+main #fourth-section #sect4-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-bottom: 50px;
+}
+
+main #fourth-section #sect4-inner h1{
+    color: white;
+    text-align: center;
+
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* squares */
+
+main #fourth-section #sect4-inner .sect4-square{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main #fourth-section #sect4-inner .sect4-square span{
+    font-size: 3em;
+    color: #9693e6;
+}
+
+main #fourth-section #sect4-inner .sect4-square h2{
+    color: #9693e6;
+    font-size: 1.2em;
+}
+
