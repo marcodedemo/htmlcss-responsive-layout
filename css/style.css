@@ -189,3 +189,74 @@ main #second-section #sect2-bottom span{
     font-style: italic;
 }
 
+
+/* SECTION3  */
+
+main #third-section{
+    padding: 50px 0;
+}
+/* sect3 top */
+main #third-section #sect3-inner #sect3-top{
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main #sect3-inner #sect3-top h1{
+    color: #9693e6;
+}
+
+main #sect3-inner #sect3-top span{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+/* sect3 mid */
+
+main #sect3-inner #sect3-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 0;
+}
+
+/* cards */
+main #sect3-inner #sect3-bottom .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+
+    background-color: #9693e6;
+    color: white;
+
+    border-radius: 20px;
+    
+    padding: 20px 10px;
+}
+
+/* pics */
+main #sect3-inner #sect3-bottom .card-pic img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+/* text */
+main #sect3-inner #sect3-bottom .card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+main #sect3-inner #sect3-bottom .card-text .name{
+    font-weight: bold;
+    text-transform: uppercase;
+}
