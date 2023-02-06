@@ -4,3 +4,36 @@
     box-sizing: border-box;
 }
 
+.centered-container{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* navbar */
+
+nav{
+    background-color: #0091ff;
+}
+
+nav #nav-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav #nav-logo img{
+    width: 80%;
+    padding: 10px;
+}
+
+nav #nav-menu{
+    color: white;
+    font-size: 1.2em;
+}
+
+/* desktop menu hidden */
+nav #nav-desktop-menu{
+    display: none;
+}
+
