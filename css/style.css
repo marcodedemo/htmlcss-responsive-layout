@@ -313,3 +313,71 @@ main #fourth-section #sect4-inner .sect4-square h2{
     font-size: 1.2em;
 }
 
+
+
+/* SECTION5 */
+
+main #fifth-section #sect5-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding: 50px 0;
+}
+
+/* sect5 top */
+main #fifth-section #sect5-inner #sect5-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+
+    line-height: 2em;
+}
+
+main #fifth-section #sect5-inner h1{
+    color: #9693e6;
+}
+
+/* sect5 bottom */
+
+main #fifth-section #sect5-inner #sect5-testimonial{
+    display: flex;
+    flex-direction: column;
+
+}
+
+main #fifth-section #sect5-inner #sect5-testimonial-pic{
+    position: relative;
+}
+main #fifth-section #sect5-inner #sect5-testimonial-pic img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+main #fifth-section #sect5-inner #sect5-testimonial-pic i{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    font-size: 4em;
+
+    color: #9693e6;
+}
+
+
+main #fifth-section #sect5-inner #sect5-testimonial-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+main #fifth-section #sect5-inner #sect5-testimonial-text span{
+    color: #9693e6;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 1.5em;
+
+}
