@@ -185,3 +185,7 @@ main #second-section #sect2-bottom img{
     width: 100%;
 }
 
+main #second-section #sect2-bottom span{
+    font-style: italic;
+}
+
