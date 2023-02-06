@@ -30,6 +30,10 @@ body{
     background-color: #9693e6;
 }
 
+.white-btn{
+    background-color: white;
+    color: #9693e6;
+}
 /* navbar */
 
 nav{
@@ -380,4 +384,47 @@ main #fifth-section #sect5-inner #sect5-testimonial-text span{
     font-weight: bold;
     font-size: 1.5em;
 
+}
+
+
+/* SECTION6 */
+
+main #sixth-section{
+    background-color: #9693e6;
+}
+
+main #sixth-section #sect6-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    text-align: center;
+
+    padding: 50px 0;
+
+    color: white;
+}
+
+main #sixth-section #sect6-inner span:first-child{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+main #sixth-section #sect6-inner h1{
+    text-transform: capitalize;
+}
+
+
+main #sixth-section #sect6-inner #free{
+    color: #ffc659;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+main #sixth-section #sect6-inner #copyright a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
 }
