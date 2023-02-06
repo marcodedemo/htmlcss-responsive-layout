@@ -26,14 +26,26 @@ body{
     background-color: #0091ff;
 }
 
+.blue-btn:hover{
+    background-color: #05518b;
+}
+
 .purple-btn{
     color: white;
     background-color: #9693e6;
 }
 
+.purple-btn:hover{
+    background-color: #8876d6;
+}
+
 .white-btn{
     background-color: white;
     color: #9693e6;
+}
+
+.white-btn:hover{
+    background-color: rgb(201, 199, 199);
 }
 
 h1{
@@ -72,6 +84,15 @@ nav #nav-desktop-menu ul{
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+nav #nav-desktop-menu a{
+    text-decoration: none;
+    color: white; 
+}
+
+nav #nav-desktop-menu a:hover{
+    text-decoration: underline;
 }
 
 nav #nav-desktop-menu .white-btn{
