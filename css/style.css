@@ -17,7 +17,7 @@ body{
 .btn{
     border-radius: 20px;
     border: none;
-    padding: 10px 40px;
+    padding: 10px 30px;
 }
 
 .blue-btn{
@@ -33,6 +33,10 @@ body{
 .white-btn{
     background-color: white;
     color: #9693e6;
+}
+
+h1{
+    font-size: 2em;
 }
 /* navbar */
 
@@ -75,6 +79,11 @@ main #first-section #sect1-inner{
     flex-direction: column;
     gap: 20px;
 
+}
+
+
+main #first-section .sect1-square #square1{
+    width: 100%;
 }
 
 main #first-section .sect1-square{
@@ -133,6 +142,7 @@ main #first-section .sect1-square #sect1-square-left p{
 
 main #first-section .sect1-square p{
     text-align: center;
+    line-height: 1.5em;
 } 
 
 
@@ -154,13 +164,20 @@ main #second-section #sect2-inner{
 main #second-section #sect2-top{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 30px;
 
     padding-bottom: 30px;
 }
+
+main #second-section #sect2-top img{
+    width: 75%;
+    
+}
 main #second-section #sect2-top h1,
 main #second-section #sect2-top p{
     color: white;
+    align-self: flex-start;
 }
 
 
@@ -192,7 +209,7 @@ main #second-section #sect2-bottom .arrow{
 }
 
 main #second-section #sect2-bottom img{
-    width: 100%;
+    width: 75%;
 }
 
 main #second-section #sect2-bottom span{
@@ -284,6 +301,12 @@ main #fourth-section #sect4-inner{
     gap: 20px;
 
     padding-bottom: 50px;
+}
+
+main #fourth-section #sect4-inner #sect4-squares{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 main #fourth-section #sect4-inner h1{
@@ -450,4 +473,41 @@ footer #footer-inner{
 
 footer #footer-inner a {
     color: #9693e6;
+}
+
+
+@media screen and (min-width:768px){
+
+    main #first-section #sect1-inner{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    main #first-section .sect1-square:first-child{
+
+        max-width: calc(100% / 3 * 2 - (20px / 2));
+    }
+
+    main #first-section .sect1-square{
+        max-width: calc(100% / 3 - (20px / 3 * 2));
+    }
+
+    main #sect3-inner #sect3-bottom .card{
+        flex-direction: row;
+        text-align: start;
+        gap: 20px;
+    }
+
+    main #fourth-section #sect4-inner #sect4-squares{
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main #fourth-section #sect4-inner .sect4-square{
+        width: calc(100% / 2 - 20px);
+    }
+
+    main #fifth-section #sect5-inner{
+        flex-direction: row;
+    }
 }
